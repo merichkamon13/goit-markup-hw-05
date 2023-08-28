@@ -535,25 +535,24 @@ overflow: hidden;
     margin-bottom: 16px;
 }
 .form-container{
-    display: flex;
-    justify-content: flex-end;
     padding-left: 80px;
-    align-items: center;
 }
-
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
 .footer-form-input{
     width: 264px;
     height: 40px;
-    padding: 8px 16px;
-
-    border-radius: 4px;
     border: 1px solid var(--white, #FFF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-
     background-color: transparent;
-    color: var(--white, #FFF);
     font-size: 12px;
-    letter-spacing: 0.48px;
+    line-height: 1.5; 
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: var(--white, #FFF);
 
 }
 
@@ -563,26 +562,24 @@ overflow: hidden;
     letter-spacing: 0.48px;
 }
 .form-btn{
-    width: 156px;
+    min-width: 165px;
     height: 40px;
-    top: 140px;
-    left: 1116px;
-    border-radius: 4px;
-
-    background-color: var(--primary-accent-color);
-    margin-left: 24px;
-
-    color: var(--white, #FFF);
-    text-align: center;
-
-    font-size: 16px;
-    letter-spacing: 0.64px;
-
-    display: inline-flex;
-    padding: 8px 24px;
+    display: flex; 
     justify-content: center;
-    align-items: center;
-    gap: 16px;
+    align-items: center; 
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px; 
+}
+.form-icon{
+    margin-left: 16px; 
 }
 .backdrop{
     position: fixed;
