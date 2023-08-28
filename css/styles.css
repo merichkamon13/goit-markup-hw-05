@@ -534,6 +534,56 @@ overflow: hidden;
     margin: 0px;
     margin-bottom: 16px;
 }
+.form-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 80px;
+    align-items: center;
+}
+
+.footer-form-input{
+    width: 264px;
+    height: 40px;
+    padding: 8px 16px;
+
+    border-radius: 4px;
+    border: 1px solid var(--white, #FFF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+    background-color: transparent;
+    color: var(--white, #FFF);
+    font-size: 12px;
+    letter-spacing: 0.48px;
+
+}
+
+.footer-form-input::placeholder{
+    color: var(--white, #FFF);
+    font-size: 12px;
+    letter-spacing: 0.48px;
+}
+.form-btn{
+    width: 156px;
+    height: 40px;
+    top: 140px;
+    left: 1116px;
+    border-radius: 4px;
+
+    background-color: var(--primary-accent-color);
+    margin-left: 24px;
+
+    color: var(--white, #FFF);
+    text-align: center;
+
+    font-size: 16px;
+    letter-spacing: 0.64px;
+
+    display: inline-flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
 .backdrop{
     position: fixed;
     top: 0;
