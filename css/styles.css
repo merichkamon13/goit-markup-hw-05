@@ -615,8 +615,6 @@ overflow: hidden;
     
 }
 .modal-btn{
-    min-width: 165px;
-    height: 40px;
     position: absolute;
     top: 24px;
     right: 24px;
