@@ -725,7 +725,7 @@ overflow: hidden;
 .modal-form-checkbox{
     margin-bottom: 24px;
 }
-.input:checked + label > span{
+.visually-hidden:checked + .modal-form-agrement > .modal-form-desc{
     background-color: var(--primary-accent-color);
     border: none;
     fill: var(--second-white-color);
@@ -738,7 +738,7 @@ overflow: hidden;
     color: var(--icons-color);
 
 }
-.input:focus + svg{
+.modal-form-input:focus + .modal-form-icon{
     fill: #4D5AE5;
 }
 .modal-form-desc{
@@ -758,6 +758,7 @@ overflow: hidden;
     
 }
 .form-button{
+    display: block; 
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
@@ -774,7 +775,6 @@ overflow: hidden;
     margin-top: 24px;
     margin-bottom: 24px;
     margin-left: 96px;
-    
-
 }
+
 
