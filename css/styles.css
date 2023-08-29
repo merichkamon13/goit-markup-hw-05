@@ -706,6 +706,8 @@ overflow: hidden;
     letter-spacing: 0.04em; 
     background-color: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    color: rgba(46, 47, 66, 0.4); 
+    outline: transparent;
 }
 .modal-form-comment::placeholder{
     color: rgba(46, 47, 66, 0.4);
@@ -722,6 +724,11 @@ overflow: hidden;
 }
 .modal-form-checkbox{
     margin-bottom: 24px;
+}
+.modal-form:checked{
+    background-color: var(--primary-accent-color);
+    border: none;
+    fill: var(--second-white-color);
 }
 .modal-form-privacy{
     display: block;
@@ -747,7 +754,7 @@ overflow: hidden;
     color: var(--primary-accent-color);
     
 }
-.form-btn{
+.form-button{
     min-width: 169px;
     height: 56px;
     font-family: "Roboto", sans-serif;
@@ -763,6 +770,7 @@ overflow: hidden;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 24px;
     margin-bottom: 24px;
+    
 
 }
 
