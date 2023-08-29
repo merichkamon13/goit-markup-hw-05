@@ -678,8 +678,8 @@ overflow: hidden;
 }
 .modal-form-input:focus{
     border-color: #4D5AE5;
-    fill: #4D5AE5; 
 }
+
 .modal-form-feedback{
     margin-bottom: 16px;
 }
@@ -725,7 +725,7 @@ overflow: hidden;
 .modal-form-checkbox{
     margin-bottom: 24px;
 }
-.modal-form:checked{
+.input:checked + label > span{
     background-color: var(--primary-accent-color);
     border: none;
     fill: var(--second-white-color);
@@ -737,6 +737,9 @@ overflow: hidden;
     letter-spacing: 0.04em;
     color: var(--icons-color);
 
+}
+.input:focus + svg{
+    fill: #4D5AE5;
 }
 .modal-form-desc{
     display: inline-flex;
@@ -770,6 +773,7 @@ overflow: hidden;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-top: 24px;
     margin-bottom: 24px;
+    margin-left: 96px;
     
 
 }
