@@ -726,7 +726,7 @@ overflow: hidden;
     margin-bottom: 24px;
 }
 .visually-hidden:checked + .modal-form-agrement > .modal-form-desc{
-    background-color: var(--primary-accent-color);
+    background-color: var(--team-icons);
     border: none;
     fill: var(--second-white-color);
 }
