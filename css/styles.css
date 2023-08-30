@@ -46,6 +46,8 @@ body{
 }
 .list{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 .portfolio-link{
     position: relative;
@@ -367,6 +369,7 @@ body{
     column-gap: 24px;
     row-gap: 48px;
     
+    
 }
 .card-set-link{
     display: block;
@@ -535,7 +538,9 @@ overflow: hidden;
     margin-bottom: 16px;
 }
 .form-container{
-    padding-left: 80px;
+    margin: 0 auto;
+    margin-left: 80px;
+    padding: 0;
 }
 .footer-form{
     display: flex;
@@ -577,6 +582,11 @@ overflow: hidden;
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px; 
+}
+.form-btn:hover,
+.form-btn:focus{
+    background: var(--ocean, #404BBF);
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .form-icon{
     margin-left: 16px; 
@@ -651,8 +661,10 @@ overflow: hidden;
     text-align: center; 
     letter-spacing: 0.02em;
     color:var(--primary-black-color);
-    margin-bottom: 16px; 
     padding: 0px;
+    margin: 0 auto;
+    margin-bottom: 16px; 
+    
 }
 .modal-form-label{
     display: block;
@@ -698,7 +710,7 @@ overflow: hidden;
     height: 120px;
     border-radius: 4px;
     padding: 8px 16px;
-    margin-bottom: 18px;
+    margin: 0 auto;
     border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
     resize: none;
     font-size: 12px;
@@ -772,9 +784,13 @@ overflow: hidden;
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    margin-top: 24px;
-    margin-bottom: 24px;
-    margin-left: 96px;
+    padding: 16px 32px;
+    margin: 0 96px;
+}
+.form-button:hover,
+.form-button:focus{
+    background: var(--ocean, #404BBF);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 
